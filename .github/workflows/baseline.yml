@@ -1,0 +1,11 @@
+name: Baseline Demo Pipeline
+
+on:
+  workflow_dispatch:
+
+jobs:
+  baseline:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print baseline line
+        run: echo "baseline pipeline executed"
